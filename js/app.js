@@ -1,6 +1,7 @@
 var password = document.getElementById("password");
 
 function genPassword() {
+  console.log('Password Was Generated!')
   var chars =
     "0123456789abcdefghijklmnopqrstuvwxyz!@#$%^&*()ABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%^&*(){}[]<>/:;',.";
   var passwordLength = 16;
